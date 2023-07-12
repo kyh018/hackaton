@@ -37,6 +37,9 @@ a{
     display: flex;
     text-align: center; 
     text-shadow: 3px 0 #000;
+    margin-left: 50px;
+    margin: 0px;
+    height: 300px;
 }
 .main_block{
     width: 500px;
@@ -45,14 +48,113 @@ a{
     border: 1px solid black;
     border-radius: 6px;
 }
-.sub_block{
-    width: 100px;
-    height: 100px;
+.middle2{
+    display: flex;
+}
+.middle_block{
+    width: 500px;
+    height: 300px;
     background-color: white;
     color: black;
+    margin-top: 160px;
+    margin-left: 100px;
     border: 1px solid black;
-}
-.all_block{
+    border-radius: 60px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    flex-direction: column;
+    text-align: center;
+    transition: 300ms;
+}
+.middle_sub_block{
+    color: grey;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.middle_all_block{
+    transition: 300ms;
+}
+.middle_all_block:hover{
+    transform: scale(1.02);
+}
+.middle_block:hover{
+    text-shadow: 2px 1px 1px green;
+    color: greenyellow;
+    border-color: greenyellow;
+}
+.GI{
+    width: 180px;
+    height: 60px;
+    border: 3px solid rgb(255, 99, 42);
+    border-radius: 20px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+    margin-left: 270px;
+    margin-top: 0px;
+    transition: 300ms;
+}
+.GI:hover{
+    transform: scale(1.05);
+}
+.info:hover{
+    background-color: yellow;
+    color: #000;
+    font-weight: bold;
+}
+.detail:hover{
+    background-color: rgb(255, 213, 0);
+    color: #000;
+    font-weight: bold;
+}
+.sign_in:hover{
+    background-color: orange;
+    color: #000;
+    font-weight: bold;
+}
+.sign_up:hover{
+    background-color: orangered;
+    color: #000;
+    font-weight: bold;
+}
+.more:hover{
+    background-color: red;
+    color: #000;
+    font-weight: bold;
+}
+.info{
+    width: 550px;
+    transition: 250ms;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.detail{
+    width: 450px;
+    transition: 250ms;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign_in{
+    width: 250px;
+    transition: 250ms;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign_up{
+    width: 250px;
+    transition: 250ms;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more{
+    width: 150px;
+    transition: 250ms;
+    font-family: Arial, Helvetica, sans-serif;
 }
