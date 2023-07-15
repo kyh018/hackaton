@@ -2,7 +2,8 @@
     display: flex;
     font-size: 30px;
     background-color: black;
-    height: 60px;
+    width: 100vw;
+    height: 10vh;
 }
 .main_title{
     color: white;
@@ -14,10 +15,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-image:url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_517129164_279516.jpg) ;
+    background-image: url(https://vibemanchester.com/wp-content/uploads/2020/09/environment.jpg);
+    background-size: cover;
 }
 .middle{
-    height: 30px;
+    width: 100vw;
+    height: 5vh;
     background-color: black;
     color: white;
     display: flex;
@@ -30,48 +33,40 @@ a{
     color: white;
 }
 .middle_title{
-    font-size: 95px;
+    font-size: 15vb;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
     text-align: center; 
     text-shadow: 3px 0 #000;
-    margin-left: 50px;
-    margin: 0px;
-    height: 300px;
+    height: 30vh;
 }
-.main_block{
-    width: 500px;
-    height: 300px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 6px;
-}
+
 .middle2{
     display: flex;
 }
 .middle_block{
-    width: 500px;
-    height: 300px;
+    width: 37vw;
+    height: 40vh;
     background-color: white;
     color: black;
-    margin-top: 160px;
-    margin-left: 100px;
     border: 1px solid black;
-    border-radius: 60px;
+    border-radius: 10vb;
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 7vb;
     font-weight: bold;
     flex-direction: column;
     text-align: center;
     transition: 300ms;
+    margin-top: 20vh;
+    margin-left: 10vw;
 }
 .middle_sub_block{
     color: grey;
-    font-size: 30px;
+    font-size: 4vb;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -85,11 +80,11 @@ a{
 .middle_block:hover{
     text-shadow: 2px 1px 1px green;
     color: greenyellow;
-    border-color: greenyellow;
+    box-shadow: 2px 2px 2px 0px rgb(33, 33, 33);
 }
 .GI{
-    width: 180px;
-    height: 60px;
+    width: 15vw;
+    height: 9vh;
     border: 3px solid rgb(255, 99, 42);
     border-radius: 20px;
     background-color: orangered;
@@ -98,15 +93,15 @@ a{
     flex-direction: column;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 4vb;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;    
-    margin-left: 270px;
-    margin-top: 0px;
     transition: 300ms;
+    margin-left: 16vw;
+
 }
 .GI:hover{
-    transform: scale(1.05);
+    transform: scale(1.15);
 }
 .info:hover{
     background-color: yellow;
@@ -134,27 +129,32 @@ a{
     font-weight: bold;
 }
 .info{
-    width: 550px;
+    width: 30vw;
     transition: 250ms;
     font-family: Arial, Helvetica, sans-serif;
 }
 .detail{
-    width: 450px;
+    width: 40vw;
     transition: 250ms;
     font-family: Arial, Helvetica, sans-serif;
 }
 .sign_in{
-    width: 250px;
+    width: 15vw;
     transition: 250ms;
     font-family: Arial, Helvetica, sans-serif;
 }
 .sign_up{
-    width: 250px;
+    width: 15vw;
     transition: 250ms;
     font-family: Arial, Helvetica, sans-serif;
 }
 .more{
-    width: 150px;
+    width: 10vw;
     transition: 250ms;
     font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 4vw;
+    height: 7vh;
+    margin-top: 2vh;
 }
