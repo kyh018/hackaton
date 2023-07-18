@@ -15,8 +15,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(https://vibemanchester.com/wp-content/uploads/2020/09/environment.jpg);
-    background-size: cover;
 }
 .middle{
     width: 100vw;
@@ -157,4 +155,8 @@ a{
     width: 4vw;
     height: 7vh;
     margin-top: 2vh;
+}
+.main_body{    
+    background-image: url(https://vibemanchester.com/wp-content/uploads/2020/09/environment.jpg);
+    background-size: cover;
 }
