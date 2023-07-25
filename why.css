@@ -1,0 +1,47 @@
+.why_container,
+.why_overlay:before {
+  background: url(https://media.istockphoto.com/id/1456547836/photo/three-white-question-marks-a-blue-wall-background.webp?b=1&s=170667a&w=0&k=20&c=W1_A4mk1ByWN7XzNPutSUX-hDqI1EdNxQW_BN6AHN38=) no-repeat fixed 0 0 / cover;
+}
+.why_container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+  
+  .why_overlay {
+    width: 100vw;
+    height: 40vh;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+    justify-content: center;
+    &:before {
+      content: '';
+      filter: blur(7px);
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+  .why_overlay span:nth-child(1){
+      font-size: 15vb;
+      font-weight:bolder;
+  
+  }
+  .why_overlay span:nth-child(2){
+      font-size: 10vb;
+      font-weight:bolder;
+      color: rgb(224, 224, 224);
+  }

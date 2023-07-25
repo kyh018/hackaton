@@ -20,6 +20,7 @@ body{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    font-size: 3vb;
 }
 
 a{
