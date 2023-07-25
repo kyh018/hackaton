@@ -7,13 +7,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.main_title{
-    color: white;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    align-items: center;
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -33,37 +27,21 @@ a{
     color: white;
 }
 .middle_title{
+    margin: 5vh;
     font-size: 15vb;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
-    text-align: center; 
-    text-shadow: 3px 0 #000;
+    text-shadow: grey  2px 2px;
     height: 30vh;
+    flex-direction: column;
 }
 
 .middle2{
     display: flex;
 }
-.middle_block{
-    width: 37vw;
-    height: 40vh;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10vb;
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 7vb;
-    font-weight: bold;
-    flex-direction: column;
-    text-align: center;
-    transition: 300ms;
-    margin-top: 20vh;
-    margin-left: 10vw;
-}
+
 .middle_sub_block{
     color: grey;
     font-size: 4vb;
@@ -77,11 +55,7 @@ a{
 .middle_all_block:hover{
     transform: scale(1.02);
 }
-.middle_block:hover{
-    text-shadow: 2px 1px 1px orangered;
-    color: orange;
-    box-shadow: 2px 2px 2px 0px rgb(250, 250, 13);
-}
+
 .GI{
     width: 15vw;
     height: 9vh;
@@ -97,7 +71,11 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;    
     transition: 300ms;
-    margin-left: 16vw;
+    margin-left: 28vw;
+    margin-top: 50vh;
+    position: relative;
+
+    
 
 }
 .GI:hover{
@@ -149,18 +127,78 @@ a{
     font-weight: bolder;
 }
 .logo{
-    width: 3vw;
-    height: 6vh;
-    margin-top: 1vh;
+    width: 2vw;
+    height: 4vh;
 }
 .main_body{    
-    background-image: url(https://www.ruralmessenger.com/wp-content/uploads/2019/01/bee-stock.jpg);
+    background-image: url(https://vibemanchester.com/wp-content/uploads/2020/09/environment.jpg) ;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 .main_left{
     color: white;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 7vb;
-    text-shadow: orange 2px 2px 2px;
+    padding-left: 2vw;
+}
+.bg_grey{
+    background-color: black;
+    width: 32vw;
+    height: 80vh;
+    opacity:0.7;
+    position: absolute;
+    z-index: -1;
+    margin-left: 20vw;
+    color: white;
+    font-weight: bold;
+    font-size: 5vb;
+    display: flex;
+    padding-top: 5vh;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.black_box{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    z-index: -1;
+    margin-top: 16vh;
+    justify-content: space-between;
+}
+
+body{
+    overflow-x: hidden;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+.speices{
+    color: gainsboro;
+    font-size: 7vb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 2vw;
+}
+.bg_grey span{
+    font-size: 2.5vb;
+    padding: 3vb 5vb 2vb 5vb;
+}
+.black_name{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5vw;
+    align-items: center;
+}
+.black_name div{
+    padding: 2vb;
 }
