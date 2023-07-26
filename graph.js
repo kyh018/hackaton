@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     let chartDataz='';
   
     chartDataX.forEach((x, i) => {
-      chartData += `${x},${chartDataY[i] * 20-10} `;
+      chartData += `${x},${chartDataY[i] * 20-160} `;
     });
     chartDataX.forEach((x, i) => {
-      chartDataz += `${x},${chartDataZ[i] * 90 -1050} `;
+      chartDataz += `${x},${chartDataZ[i] * 90 -1100} `;
     });
   
     chartData = chartData.trim();
