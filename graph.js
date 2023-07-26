@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let chartDataz='';
   
     chartDataX.forEach((x, i) => {
-      chartData += `${x},${chartDataY[i] * 20-150} `;
+      chartData += `${x},${chartDataY[i] * 20-10} `;
     });
     chartDataX.forEach((x, i) => {
       chartDataz += `${x},${chartDataZ[i] * 90 -1050} `;

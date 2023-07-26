@@ -55,6 +55,150 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     z-index: -1;
-    margin-top: 16vh;
     justify-content: space-between;
+}
+.why_content{
+  font-size: 2.5vb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 50vw;
+  margin-left: 25vw;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.bee_image{
+  width: 30vw;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 10vw;
+}
+.change_btn{
+  background-color: orange;
+  color: black;
+  width: 23vw;
+  height: 10vw;
+  border-radius: 3vb;
+  font-size: 5vb;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  transition: 250ms;
+}
+.change_btn:hover{
+  background-color: #000;
+  color: white;
+  transform: scale(1.1)
+}
+.all_change{
+  display: flex;
+  justify-content: center;
+}
+.green_wave_hackaton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  transition: 250ms;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 5vh;
+  font-size: 5vb;
+}
+.green{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: greenyellow;
+}
+.wave{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+.Hackaton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.green_wave_hackaton:hover{
+  background-color: yellow;
+  color: #000;
+  font-weight: bold;
+  .green{
+    color: #000;
+  }
+  .wave{
+    color: #000;
+  }
+  .Hackaton{
+    color: #000;
+  }
+}
+
+.info{
+  width: 50vw;
+  transition: 250ms;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+.detail{
+  width: 35vw;
+  transition: 250ms;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+
+.info:hover{
+  background-color: rgb(255, 213, 0);
+  color: #000;
+  font-weight: bold;
+}
+.detail:hover{
+  background-color: rgb(255, 145, 0);
+  color: #000;
+  font-weight: bold;
+}
+.more:hover{
+  background-color: orangered;
+  color: #000;
+  font-weight: bold;
+}
+.black_box{
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  color: white;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  z-index: -1;
+  justify-content: space-between;
+}
+#go-top {
+  display: none;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  z-index: 9999;
+  color: orange;
 }

@@ -44,7 +44,7 @@
 
 }
 .overlay span:nth-child(2){
-    font-size: 10vb;
+    font-size: 7vb;
     font-weight:bolder;
     color: rgb(224, 224, 224);
 }
@@ -184,4 +184,13 @@
 .all_graph{
   display: flex;
   align-items: center;
+}
+.why_content{
+  font-size: 2.5vb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 50vw;
+  margin-left: 25vw;
+  display: flex;
+  text-align: center;
 }
