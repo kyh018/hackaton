@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js" integrity="sha512-v/m68W+vaGN/6igoyFpd4GlQzu0jx9/n5gr2PKq5vif+RObyGKHse384YHrOULaxZ810XhlHUrmB3U8UnPB19Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="content.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Borel&family=Gothic+A1:wght@700&family=Noto+Sans+Cypro+Minoan&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="animation.js">
+    <script src="animation.js"></script>
+    <script src="graph.js"></script>
+    <link rel="stylesheet" href="output.css">
 </head>
 <body>
 
@@ -24,8 +25,6 @@
         </a>
         </div>
         <a href="why.html" class="info">why</a>
-        <a href="what.html" class="detail">what</a>
-        <a href="how.html" class="more">how</a>
     </div>
     <div class="container">
         <div class="overlay">
@@ -33,38 +32,140 @@
         <span>sample text</span>
         </div>
     </div>
+
+
     <div class="why">
         <span>
             꿀이나 옮기고 다니는 꿀벌이 어째서 핵심종인지 모르는 사람들도 있습니다.
-누군가는 꿀벌보단 우리 인간을 신경써야하지않냐고 말하기도 합니다. </span> <br><br>
+누군가는 꿀벌보단 우리 인간을 신경써야하지않냐고 말하기도 합니다.  </span> <br><br>
  <span class="highlight_box">그러나 꿀벌을 지키는것은, 곧 우리 인간을 지키는것과 같습니다. </span> <br><br><br><br>
-<span> 꿀벌은 꿀을 모으기 위해 꽃을 옮겨 다니는데, 
-이 과정에서 꿀벌에 몸에 묻는 꽃가루가 다른 꽃으로 옮겨지며 수분이 일어납니다. 즉, 꿀벌이 있어야 열매를 맺을수있다는 소리입니다.
-이런방식으로 인간이 먹는 전체 식량 생산의 약 33%가 꿀벌의 수분 활동에 의존하고있습니다.
-심지어 아몬드나 양파, 아보카도는 꿀벌 의존도가 90%~100%에 해당하기때문에 꿀벌이 멸종한다면 이들 역시 회생이 불가능할정도의 큰 타격을 받게됩니다.
-</span> <br><br><br><br>
+<span> 이런방식으로 인간이 먹는 전체 식량 생산의 약 33%가 꿀벌의 수분 활동에 의존하고있습니다.
+    심지어 아몬드나 양파, 아보카도는 꿀벌 의존도가 90%~100%에 해당하기때문에 꿀벌이 멸종한다면 이들 역시 회생이 불가능할정도의 큰 타격을 받게됩니다.
+    
+    실제로 알베르트 아인슈타인(1879~1955)은 꿀벌이 멸종되면 인간도 4년내에 멸종될것이라고 말한적이 있을정도로
+    꿀벌의 존재는 우리 인간에게도 매우 중요하다는것을 알수있습니다. 
+</span>
+<br><br><br><br>
 <span>
 그러나 이런 꿀벌의 개체수는 현재 많이 감소하고있는 추세입니다. 
 특히 2022년에는 전국에서 약 70억 마리의 벌들이 단체로 실종되는 현상이 발생되기도했습니다.
+어째서 이런일이 일어나게 된걸까요?
+</span> <script type="text/javascript" src="graph.js" class="all_wrap"></script>
+<div class="all_graph">
+<div class="index">
+  <div><img src="blue.png" alt="">온도</div>
+  <div><img src="red.png" alt="">꿀벌 개체수</div>
+</div>
+<div class="graph_wrap">
+    <div class="graph_inner">
+      <ul class="graph_bg">
+        <!-- 그래프 point top 값 % 로 입력 0 ~ 100% -->
+        <li>
+          <strong class="graph_title">2012</strong>
+          <button class="graph_point" aria-expanded="false">
+          </button>
+          <div class="graph_tip"><strong></strong></div>
+        </li>
+        <li>
+          <strong class="graph_title">2013</strong>
+          <button class="graph_point" aria-expanded="false">
+          </button>
+          <div class="graph_tip"><strong></strong></div>
+        </li>
+        <li>
+          <strong class="graph_title">2014</strong>
+          <button class="graph_point" aria-expanded="false">
+          </button>
+          <div class="graph_tip"><strong></strong></div>
+        </li>
+        <li>
+          <strong class="graph_title">2015</strong>
+          <button class="graph_point" aria-expanded="false">
+          </button>
+          <div class="graph_tip"><strong></strong></div>
+        </li>
+        <li>
+          <strong class="graph_title">2016</strong>
+          <button class="graph_point" aria-expanded="false">
+          </button>
+          <div class="graph_tip"><strong></strong></div>
+        </li>
+        <li>
+          <strong class="graph_title">2017</strong>
+          <button class="graph_point" aria-expanded="false">
+          </button>
+          <div class="graph_tip"><strong></strong></div>
+        </li>
+        <li>
+          <strong class="graph_title">2018</strong>
+          <button class="graph_point" aria-expanded="false">
+          </button>
+          <div class="graph_tip"><strong></strong></div>
+        </li>
+        <li>
+          <strong class="graph_title">2019</strong>
+          <button class="graph_point" aria-expanded="false">
+          </button>
+          <div class="graph_tip"><strong></strong></div>
+        </li>
+      </ul>
+      <div class="graph_line">
+<!--             
+          x 값 : 57 간격으로 올라감 (예: 0, 57, 114, 171, 228, 285, 342, 399, 456, 513)
+          y 값 : button class="graph_point" top % 의 두배 수 (예: 10% -> 20)
+          적용 : points="x,y x,y ....."
+          -->
+        <div class="svgBox">
+          <svg class="svg" height="216">
+            <polyline id="polylineid" class="polyline1" points=""></polyline>
+            <polyline id="polylineid" class="polyline2" points=""></polyline>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<span>지난 10년간 꿀벌 개체수 증감 데이터와 연평균 데이터를 분석해본 결과 두 데이터 사이에 음의 상관관계가 존재하고있음을 알수있었습니다. 
+
 </span> <br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<span>분석해본 결과, 꿀벌의 개체수가 줄어드는 이유는 기후변화와 적지않은 관련이 있음을 알수있었습니다.
-</span> <br><br><br><br>
-<span>
-    연평균 기온 데이터를 보면, 과거에 비해 기온이 높아졌슴을 알수있는데,
-    이로인해 봄이 빨리오고 밀원수들의 꽃이 조기개화하게되어 혼란을 야기하고
-    겨울은 비교적 따뜻해졌기때문에 원래 벌통에서 휴식을 취해야할 꿀벌이 밖에 나왔다가 다시 추워진 날씨에 큰 스트레스를 받으며 또한 꿀벌에게 전염병을 퍼트리는 해충인 꿀벌응애가 활동하기 편한 환경이 되기때문에 이런 현상이 발생하는것입니다.</span> <br><br><br><br>
+<span">
+연평균 기온 데이터를 보면, 과거에 비해 기온이 높아졌슴을 알수있는데,
+이로인해 겨울이 따뜻해지고 일시적 고온 현상이 일어나면서 일부 지역에 꽃이 피고 월동에 들어갔던 꿀벌이 계절을 착각해 꽃가루를 채집하러 갔다가 돌아오지 못하게되는것입니다.  
+또한 기온이 높아질경우 꿀벌에게 전염병을 퍼트리는 해충인 꿀벌응애가 활동하기 편한 환경이 되는것도 현재 꿀벌의 개체수가 감소하고있는 주요 이유중 하나로 뽑힙니다..</span><br><br><br><br>
     
-    이로인해 xx년 기준 꿀벌은 과거에 비해 약 xx% 가량 줄어들었으며, 이는 더이상 우리가 보고만있을 문제가 아니라는것을 보여줍니다.</span><br><br><br><br>
+<span>이로인해 2010년대에 들어 꿀벌의 개체수는 과거에 비해 약 40%가량이 줄어들었으며, 이는 더이상 우리가 보고만있을 문제가 아니라는것을 보여줍니다.</span>
     
-        <span></span>
     </div>
 
+    <!-- button -->
+    <button id="go-top"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor"
+        class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+      </svg></button>
 
+    <script>
+      var backToTop = () => {
+        // Scroll | button show/hide
+        window.addEventListener('scroll', () => {
+          if (document.querySelector('html').scrollTop > 100) {
+            document.getElementById('go-top').style.display = "block";
+          } else {
+            document.getElementById('go-top').style.display = "none";
+          }
+        });
+        // back to top
+        document.getElementById('go-top').addEventListener('click', () => {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
+        })
+      };
+      backToTop();
+    </script>
 
-<button id="to-top" >
-    위로가기
-</button>
 
 <div>
         <div class="black_box">

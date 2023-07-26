@@ -82,21 +82,7 @@ a{
 .GI:hover{
     transform: scale(1.15);
 }
-.info:hover{
-    background-color: yellow;
-    color: #000;
-    font-weight: bold;
-}
-.detail:hover{
-    background-color: rgb(255, 213, 0);
-    color: #000;
-    font-weight: bold;
-}
-.more:hover{
-    background-color: orangered;
-    color: #000;
-    font-weight: bold;
-}
+
 .info{
     width: 35vw;
     transition: 250ms;
